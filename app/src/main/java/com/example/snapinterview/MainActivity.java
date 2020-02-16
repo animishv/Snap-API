@@ -21,8 +21,8 @@ import retrofit2.converter.gson.GsonConverterFactory;
 
 public class MainActivity extends AppCompatActivity {
 
-    private final String client_id = "c5151194-9ded-4ac5-b69a-bb9914401698";
-    private final String client_secret = "4665c0ca45ef10dbefa2";
+    private final String client_id = "YOUR_SNAP_CLIENT_ID";
+    private final String client_secret = "YOUR_SNAP_CLIENT_SECRET";
     private final String redirect_uri = "https://example.com/snap";
 
     private static String token;
